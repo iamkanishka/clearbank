@@ -27,13 +27,13 @@ A **production-grade Elixir hex package** for the [ClearBank UK API](https://cle
 
 ## Supported APIs
 
-| Area | Modules |
-|---|---|
-| GBP Accounts | `Accounts`, `Accounts.Transactions`, `Accounts.BacsPaymentData`, `Accounts.Reporting` |
-| GBP Payments | `Payments.FasterPayments`, `Payments.Chaps`, `Payments.Bacs`, `Payments.BacsDirectDebit`, `Payments.Cheques`, `Payments.CrossBorder`, `Payments.ConfirmationOfPayee` |
-| Multi-currency & FX | `MultiCurrency.Accounts`, `MultiCurrency.Payments`, `MultiCurrency.FxTrade`, `MultiCurrency.FxTradeRfq`, `MultiCurrency.SepaCreditTransfer` |
-| Embedded Banking | `EmbeddedBanking.Customers`, `EmbeddedBanking.Accounts`, `EmbeddedBanking.Isa`, `EmbeddedBanking.Interest`, `EmbeddedBanking.Kyc` |
-| Webhooks | `Webhook`, `Webhook.Verifier`, `Webhook.Handler` |
+| Area                | Modules                                                                                                                                                              |
+| ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| GBP Accounts        | `Accounts`, `Accounts.Transactions`, `Accounts.BacsPaymentData`, `Accounts.Reporting`                                                                                |
+| GBP Payments        | `Payments.FasterPayments`, `Payments.Chaps`, `Payments.Bacs`, `Payments.BacsDirectDebit`, `Payments.Cheques`, `Payments.CrossBorder`, `Payments.ConfirmationOfPayee` |
+| Multi-currency & FX | `MultiCurrency.Accounts`, `MultiCurrency.Payments`, `MultiCurrency.FxTrade`, `MultiCurrency.FxTradeRfq`, `MultiCurrency.SepaCreditTransfer`                          |
+| Embedded Banking    | `EmbeddedBanking.Customers`, `EmbeddedBanking.Accounts`, `EmbeddedBanking.Isa`, `EmbeddedBanking.Interest`, `EmbeddedBanking.Kyc`                                    |
+| Webhooks            | `Webhook`, `Webhook.Verifier`, `Webhook.Handler`                                                                                                                     |
 
 ---
 
