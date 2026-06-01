@@ -43,7 +43,7 @@ A **production-grade Elixir hex package** for the [ClearBank UK API](https://cle
 # mix.exs
 def deps do
   [
-    {:clearbank, "~> 0.1"}
+    {:clearbank, "~> 1.0"}
   ]
 end
 ```
