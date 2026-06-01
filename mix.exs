@@ -111,7 +111,7 @@ defmodule ClearBank.MixProject do
       main: "readme",
       source_ref: "v#{@version}",
       source_url: @source_url,
-      extras: ["README.md", "CHANGELOG.md", "guides/getting_started.md", "guides/webhooks.md"],
+      extras: ["README.md", "CHANGELOG.md", "guides/getting_started.md", "guides/webhooks.md", "LICENSE"],
       groups_for_modules: [
         Core: [ClearBank, ClearBank.Client, ClearBank.Config],
         Auth: [ClearBank.Auth.Signer],
