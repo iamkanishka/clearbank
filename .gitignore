@@ -1,0 +1,27 @@
+# Build artifacts
+/_build/
+/cover/
+/deps/
+/doc/
+/.fetch
+
+# Hex package
+*.ez
+
+# Secrets
+*.pem
+*.key
+config/prod.secret.exs
+config/runtime.exs
+
+# PLTs (dialyzer)
+/priv/plts/
+
+# Test coverage
+/cover/
+
+# Editor
+.elixir_ls/
+.vscode/
+*.swp
+.DS_Store
