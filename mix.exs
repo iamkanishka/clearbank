@@ -2,7 +2,7 @@ defmodule ClearBank.MixProject do
   use Mix.Project
 
   @version "0.1.0"
-  @source_url "https://github.com/your-org/clearbank"
+  @source_url "https://github.com/iamkanishka/clearbank"
 
   def project do
     [
@@ -102,7 +102,7 @@ defmodule ClearBank.MixProject do
         "GitHub" => @source_url,
         "ClearBank Developer Portal" => "https://clearbank.github.io/uk"
       },
-      maintainers: ["Your Name"]
+      maintainers: ["Kanishka Naik"]
     ]
   end
 
